@@ -10,7 +10,7 @@ Source code for GeeksHubs Academy Bootcamp Frontend Angular first challenge
 
 ### Dependencies
 
-* This site had been built entirely with Ubuntu 20.04 os
+* This site had been built entirely using Windows 10 Pro
 
 
 ### Executing program
@@ -22,7 +22,10 @@ Source code for GeeksHubs Academy Bootcamp Frontend Angular first challenge
 
 Contributors names and contact info
 
-[@patriciamespert](https://twitter.com/mundoandroide_)
+Linkedin [Patricia Martínez Espert](https://www.linkedin.com/in/patricia-martinez-espert-7470291a7/)
+Twitter [@mundoandroide_](https://twitter.com/mundoandroide_)
+Wordpress [Mundo Android](https://www.mundoandroid.blog)
+
 
 ## Version History
 
