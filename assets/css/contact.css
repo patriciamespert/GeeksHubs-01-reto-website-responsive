@@ -1,9 +1,8 @@
-
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0.3em;
+    margin: 10px 14px;
 }
+  
 .contact-form{
     background: #fff;
     margin-top: 10%;
