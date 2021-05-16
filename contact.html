@@ -6,19 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact page</title>
     <!-- Bootstrap CSS -->
+    <!-- css -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/index.css">
     <link type="text/css" rel="stylesheet" href="assets/css/contact.css">
 </head>
 <body>
     
 
-
-
-
-
-
-
-     <!-- Optional JavaScript -->
+    <div class="container">
+        <div>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <!-- <div class="container-fluid"> -->
+                        <a  class="navbar-brand" href="./index.html"> <span style="font-size: large;"> Android Blog </span> </a>
+                        <!--  <button class="navbar-toggler fas fa-angle-double-down fa-2x" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">  </button>-->
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul id="navbar-nav-dropdown" class="navbar-nav">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="./about.html"> About </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.html">Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                    <!-- </div> -->
+                </nav>
+            </header>
+            
+        </div>
+        <div>
+            <article>
+    
+                <div class="container contact-form">
+                    <div class="contact-image">
+                        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+                    </div>
+                    <form method="post" onsubmit="return false;">
+                        <h3>Drop me a Message !</h3>
+                        <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" name="txtName" class="form-control" placeholder="John Doe" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="txtEmail" class="form-control" placeholder="johndoe@mail.com" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="txtPhone" class="form-control" placeholder="+34123456789" value="" />
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+        <div> 
+            <footer class="container">
+            <p>Patricia Mart&iacute;nez Espert <i class="fas fa-trademark"></i> </p>
+            </footer>
+        </div>
+    </div>
+        
+    <!-- Optional JavaScript -->
     <!-- Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
