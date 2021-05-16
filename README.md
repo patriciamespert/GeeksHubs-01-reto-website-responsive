@@ -10,7 +10,7 @@ Source code for GeeksHubs Academy Bootcamp Frontend Angular first challenge
 
 ### Dependencies
 
-* This site had been built entirely using Windows 10 Pro
+* This site had been built entirely using Windows 10 Pro & Ubuntu 20.04 OS
 
 
 ### Executing program
