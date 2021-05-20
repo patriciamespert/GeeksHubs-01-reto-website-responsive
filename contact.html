@@ -20,9 +20,8 @@
         <div>
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <!-- <div class="container-fluid"> -->
                         <a  class="navbar-brand" href="./index.html"> <span style="font-size: large;"> Android Blog </span> </a>
-                        <!--  <button class="navbar-toggler fas fa-angle-double-down fa-2x" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">  </button>-->
+                        <button class="navbar-toggler fas fa-angle-double-down fa-2x" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">  </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul id="navbar-nav-dropdown" class="navbar-nav">
                                 <li class="nav-item">
@@ -45,7 +44,7 @@
                     <div class="contact-image">
                         <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
                     </div>
-                    <form method="post" onsubmit="return false;">
+                    <form method="post" onsubmit="return true;" action="./index.html">
                         <h3>Drop me a Message !</h3>
                         <div class="row">
                                 <div class="col-sm-6">
@@ -60,7 +59,7 @@
                                     </div>
                                     <br>
                                     <div class="form-group">
-                                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                                        <input type="submit" name="btnSubmit" class="btnContact" value="Send" />
                                     </div>
                                 </div>
                                 
